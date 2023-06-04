@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.carousel-item img{
+    height: 100vh;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: transparent !important;
+}
+.image-wrapper{
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+}
+.image-wrapper img{
+    height: 30vh;
+}
+.btn:hover{
+    color: #e2e7e7!important;
+    background-color: #be198a!important;
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .image-wrapper .container{
+        width: 50%;
+    }
+}
